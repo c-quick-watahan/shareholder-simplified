@@ -37,3 +37,16 @@ app/shareholder/[id]/page.tsx
     ├── components/edit-application-btn.tsx
     └── components/proxy-application-btn.tsx
 ```
+
+## Data Management (Benefits and Lottery Pages Combined)
+
+```
+app/data-management/page.tsx
+├── components/benefit-data-search.tsx
+    ├── components/data-dropdown.tsx
+    ├── components/data-checkbox.tsx
+    ├── components/data-add-btn.tsx
+    └── components/data-clear-btn.tsx
+└── components/data-table.tsx
+└── components/download-data-results.tsx
+```
