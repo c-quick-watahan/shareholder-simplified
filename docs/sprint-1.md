@@ -20,6 +20,8 @@ shareholders (
 )
 ```
 
+## PersonalDetails
+
 ```sql
 personal_details (
   id SERIAL PRIMARY KEY,
@@ -31,6 +33,8 @@ personal_details (
   updated_at TIMESTAMP DEFAULT NOW()
 )
 ```
+
+## Addresses
 
 ```sql
 addresses (
@@ -57,7 +61,7 @@ goca_members (
 )
 ```
 
-## Benefit
+## Benefits
 
 ```sql
 benefits (
